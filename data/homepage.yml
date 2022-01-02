@@ -1,7 +1,7 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "Raju Gandhi"
+  writter : "[Raju Gandhi](https://www.looselytyped.com) (Edited By [Sarah Grey](https://twitter.com/GreyEditing))"
   title : "Head First Git"
   image : "images/about/book.jpg"
   content : "
@@ -14,9 +14,9 @@ preview:
   enable : true
   pagePreview:
     # page preview loop
-    - image : "images/about/book_page.png"
-    - image : "images/about/book_page2.png"
-    - image : "images/about/book_page.png"
+    - image : "images/about/hfGit_QC2-1.jpg"
+    - image : "images/about/hfGit_QC2-2.jpg"
+    - image : "images/about/hfGit_QC2-0.jpg"
 
   title : "Look Inside the book"
   content : "
@@ -46,18 +46,18 @@ service:
   serviceItem:
     # service item loop
     - title : "Experience"
-      icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      icon : "ti-eye" # themify icon pack : https://themify.me/themify-icons
+      content : "A visual treat, with lots of graphics to explain ideas and concepts."
 
     # service item loop
-    - title : "Marketing Goals"
-      icon : "ti-rocket" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+    - title : "Hands On"
+      icon : "ti-cup" # themify icon pack : https://themify.me/themify-icons
+      content : "With lots of exercises so you don't just read, but _do_."
 
     # service item loop
-    - title : "Targetting Vission"
-      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+    - title : "Made With Love"
+      icon : "ti-heart" # themify icon pack : https://themify.me/themify-icons
+      content : "From our hearts and minds to yours. The kind of book that we wish was written for us."
 
 
 ######################### Quote #############################
@@ -71,7 +71,7 @@ quote:
 chapters:
   enable : true
   title : "Full Chapter Overview"
-  subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
+  subtitle : "Everything you need to know to hit the ground running with Git."
   chapter:
     # chapter preview loop
     - title : "Chapter 1"
@@ -127,31 +127,28 @@ reviews:
       content : "This book is a must for all of those who truly wish to understand the ins and outs of Git. Very well explained in a fun matter to follow along. Note that the books is being released chapter by chapter so it is not complete as of writing."
 
     # review item loop
-    - name : "jbean2"
+    - name : "jonathanbluhm"
       image : "images/client/test-1.jpg" # image size 80*80 px
       designation : "O'Reilly Reader"
       rating : "five" # rating from one to five
-      content : "I've only reviewed the first 2 chapters at this time, only ones available right now. The explanations are clear and easy to follow. I really appreciate that all examples of the code is meant to be tried by the reader and stated as such. Also that the author makes sure the reader checks they are in the correct directories for the examples. It makes it much easier when trying examples to drill in concepts."
+      content : "Sensational. Completely changed the way I think about git, and in a good way!"
 
 #################################### device ################################
 devices:
   enable : true
   title : "Read it on your favorite device!"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quod, nobis repudiandae! In
-          commodi accusamus molestiae, sunt, tempora fugiat doloribus sint quisquam illo numquam corporis
-          tenetur necessitatibus expedita eius, sed."
+  content : "Head First Git is available in a variety of formats, including paperback and Kindle ebooks on [Amazon](https://www.amazon.com/Head-First-Git-Learners-Understanding/dp/1492092517), as well on [O'Reilly's platform](https://learning.oreilly.com/library/view/head-first-git/9781492092506/) for oneline viewing."
   image : "images/about/ipad.jpg"
   feature:
-    # feature item loop
-    - title : "Take a sneak peak insight"
-      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+    # # feature item loop
+    # - title : "Take a sneak peak insight"
+    #   icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+    #   content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
 
-    # feature item loop
-    - title : "Reporting & Analysis"
-      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
-
+    # # feature item loop
+    # - title : "Reporting & Analysis"
+    #   icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+    #   content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
 
   # button
   button:
@@ -166,35 +163,38 @@ author:
   name : "Raju Gandhi"
   designation : "Lifelong Learner"
   content : "
-  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
+  Raju is the founder of DefMacro Software, LLC. He lives in Columbus, Ohio, along with his wonderful wife, Michelle; their sons, Mason and Micah; and their three furry family members—their two dogs, Buddy and Skye, and Princess Zara, their cat.
 
 
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+  Raju is a consultant, author, teacher, and regularly invited speaker at conferences around the world. In his career as both a software developer and a teacher, he believes in keeping things simple. His approach is always to understand and explain the “why,” as opposed to the “how.”
+
+
+  Raju blogs at https://www.looselytyped.com, and can be found on Twitter as [@looselytyped](https://twitter.com/looselytyped). He’s always looking to make new friends, and you can find his contact information at https://www.rajugandhi.com."
 
   # signature
-  signature : "images/about/2.png"
+  signature : ""
 
 
 ################################ Awards #####################################
-# awards:
-#   enable : true
-#   title : "We are award winner best selling book among the top rated 10 books!"
-#   award:
-#     # award item loop
-#     - title : "International award"
-#       image : "images/about/award-1.png"
+awards:
+  enable : false
+  title : "We are award winner best selling book among the top rated 10 books!"
+  award:
+    # award item loop
+    - title : "International award"
+      image : "images/about/award-1.png"
 
-#     # award item loop
-#     - title : "Meritorious award"
-#       image : "images/about/award-2.png"
+    # award item loop
+    - title : "Meritorious award"
+      image : "images/about/award-2.png"
 
-#     # award item loop
-#     - title : "Best book award"
-#       image : "images/about/award-3.png"
+    # award item loop
+    - title : "Best book award"
+      image : "images/about/award-3.png"
 
-#     # award item loop
-#     - title : "Excellence award"
-#       image : "images/about/award-4.png"
+    # award item loop
+    - title : "Excellence award"
+      image : "images/about/award-4.png"
 
 
 ############################# Other books ###############################
@@ -208,10 +208,10 @@ otherBooks:
       link : "https://www.amazon.com/JavaScript-Next-Complete-Features-Introduced/dp/1484253930"
 
 ################################ Blog ###################################
-# blog:
-#   enable : true
-#   title : "Our insights and articles"
-#   subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
+blog:
+  enable : false
+  title : "Our insights and articles"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
   # blog post comes from 'content/blog'
 
 ################################# Contact ##############################

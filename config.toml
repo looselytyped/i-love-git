@@ -39,6 +39,11 @@ paginate = 6
   weight = 1
 
   [[menu.main]]
+  name = "Resources"
+  URL = "resources"
+  weight = 1
+
+  [[menu.main]]
   name = "Chapters"
   URL = "chapter"
   weight = 2
@@ -69,12 +74,14 @@ paginate = 6
 logo = ""
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Companion site for the book \"Head First Git\" by Raju Gandhi"
+author = "Raju Gandhi"
 # Google Analitycs
-googleAnalitycsID = "" # Your ID
+googleAnalitycsID = "UA-30745177-1" # Your ID
 # copyright
-copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) All Rights Reserved"
+copyright = """Copyright &copy; 2021 Raju Gandhi
+
+Influencer Hugo Theme thanks to [GetHugoThemes](https://gethugothemes.com)"""
 
 # Preloader
 [params.preloader]
