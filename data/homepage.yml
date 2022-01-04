@@ -1,7 +1,7 @@
 ########################## Banner #############################
 banner:
   enable : true
-  writter : "[Raju Gandhi](https://www.looselytyped.com) (Edited By [Sarah Grey](https://twitter.com/GreyEditing))"
+  writter : "[Raju Gandhi](https://www.looselytyped.com) (Edited By [Sarah Grey](https://www.linkedin.com/in/sarahgrey/))"
   title : "Head First Git"
   image : "images/about/book.jpg"
   content : "
